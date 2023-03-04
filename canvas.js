@@ -1,3 +1,6 @@
+
+//Ex1.
+
 let Square = document.getElementById("Square");
 
 
@@ -22,8 +25,4 @@ context.fillStyle = 'white';
 context.fillRect(70,70,160,160);
 
 
-/*context.moveTo(0,0);
-context.lineTo(0,0);
-context.moveTo(50,20);
-context.lineTo(50,70);
-context.stroke();*/
+
