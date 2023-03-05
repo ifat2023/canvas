@@ -26,3 +26,29 @@ context.fillRect(70,70,160,160);
 
 
 
+//Ex2.
+let circle = document.getElementById("circle");
+
+let ctxt = circle.getContext("2d")
+
+circle.width = 300; 
+circle.height = 300;
+
+/*circle.width =  window_width; 
+circle.height =  window_height;*/
+
+ctxt.beginPath();
+ctxt.strokeStyle = "red";
+ctxt.lineWidth = 7;
+ctxt.arc(150,145,80,0,2*Math.PI);
+ctxt.stroke();
+ctxt.closepath();
+
+//Ex3.
+let rectangles  = document.getElementById("rectangles");
+
+let ct = rectangles.getContext("2d")
+
+rectangles.width = 300; 
+rectangles.height = 300;
+
