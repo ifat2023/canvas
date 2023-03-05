@@ -105,3 +105,8 @@ tx.lineWidth = 3;
 tx.arc(180,120,10,0,2*Math.PI,true);
 tx.stroke();
 
+tx.beginPath();
+tx.lineWidth = 3;
+tx.arc(155,180,35,0,Math.PI,false);
+tx.stroke();
+
