@@ -74,9 +74,34 @@ ctx.lineTo(70,200);
 ctx.lineTo(200, 200);
 ctx.closePath();
 
-ctx.lineWidth = 40;
+ctx.lineWidth = 30;
 ctx.strokeStyle = "black";
 ctx.stroke();
 
 ctx.fillStyle = "black";
 ctx.fill();
+
+//Ex5.
+
+let fun  = document.getElementById("fun");
+
+let tx = fun.getContext("2d")
+
+fun.width = 300; 
+fun.height = 300;
+
+tx.beginPath();
+tx.lineWidth = 5;
+tx.arc(150,145,90,0,2*Math.PI);
+tx.stroke();
+
+tx.beginPath();
+tx.lineWidth = 3;
+tx.arc(120,120,10,0,2*Math.PI,true);
+tx.stroke();
+
+tx.beginPath();
+tx.lineWidth = 3;
+tx.arc(180,120,10,0,2*Math.PI,true);
+tx.stroke();
+

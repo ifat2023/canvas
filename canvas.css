@@ -1,5 +1,8 @@
 body {
  background-color: rgb(13, 226, 201); 
+ margin-top: 10px;
+ margin-left: 10px;
+
 }
    
 #Square {
@@ -15,5 +18,9 @@ body {
 }
 
 #triangle {
+    background-color:  white;
+}
+
+#fun {
     background-color:  white;
 }
