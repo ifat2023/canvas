@@ -107,6 +107,50 @@ tx.stroke();
 
 tx.beginPath();
 tx.lineWidth = 3;
-tx.arc(155,180,35,0,Math.PI,false);
+tx.arc(150,180,35,0,Math.PI,false);
 tx.stroke();
 
+//Ex6.
+
+let diagonal  = document.getElementById("diagonal");
+
+let x = diagonal.getContext("2d")
+
+diagonal.width = 300; 
+diagonal.height = 300;
+
+x.beginPath();
+x.fillStyle = "white";
+x.arc(25,25,20,0,2*Math.PI,true);
+x.stroke();
+x.fill();
+
+x.beginPath();
+x.fillStyle = "#d4d4d4";
+x.arc(75,75,20,0,2*Math.PI,true);
+x.stroke();
+x.fill();
+
+x.beginPath();
+x.fillStyle = "#aaaaaa";
+x.arc(125,125,20,0,2*Math.PI,true);
+x.stroke();
+x.fill();
+
+x.beginPath();
+x.fillStyle = "#7f7f7f";
+x.arc(175,175,20,0,2*Math.PI,true);
+x.stroke();
+x.fill();
+
+x.beginPath();
+x.fillStyle = "#555555";
+x.arc(225,225,20,0,2*Math.PI,true);
+x.stroke();
+x.fill();
+
+x.beginPath();
+x.fillStyle = "black";
+x.arc(275,275,20,0,2*Math.PI,true);
+x.stroke();
+x.fill();
