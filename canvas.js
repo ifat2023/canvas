@@ -42,7 +42,7 @@ ctxt.strokeStyle = "red";
 ctxt.lineWidth = 7;
 ctxt.arc(150,145,80,0,2*Math.PI);
 ctxt.stroke();
-ctxt.closepath();
+//ctxt.closepath();
 
 //Ex3.
 let rectangles  = document.getElementById("rectangles");
@@ -52,3 +52,9 @@ let ct = rectangles.getContext("2d")
 rectangles.width = 300; 
 rectangles.height = 300;
 
+ct.fillStyle = 'red';
+ct.fillRect(30,30,170,170);
+
+ct.fillStyle = 'blue';
+ct.globalAlpha = 0.5;
+ct.fillRect(100,100,170,170);
