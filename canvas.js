@@ -58,3 +58,25 @@ ct.fillRect(30,30,170,170);
 ct.fillStyle = 'blue';
 ct.globalAlpha = 0.5;
 ct.fillRect(100,100,170,170);
+
+//Ex4.
+
+let Triangle  = document.getElementById("Triangle");
+
+let ctx = Triangle.getContext("2d")
+
+Triangle.width = 300; 
+Triangle.height = 300;
+
+ctx.beginPath();
+ctx.moveTo(70, 70);
+ctx.lineTo(70,200);
+ctx.lineTo(200, 200);
+ctx.closePath();
+
+ctx.lineWidth = 40;
+ctx.strokeStyle = "black";
+ctx.stroke();
+
+ctx.fillStyle = "black";
+ctx.fill();
